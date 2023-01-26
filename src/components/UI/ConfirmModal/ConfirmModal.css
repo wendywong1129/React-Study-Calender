@@ -1,0 +1,58 @@
+.confirmModal {
+  display: flex;
+  flex-flow: column;
+  width: 400px;
+  height: 200px;
+  padding: 10px;
+  background-color: #fff;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.confirmText {
+  height: 115px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 28px;
+  font-weight: bold;
+  color: #d62828;
+}
+
+.confirmButton {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.confirmButton button {
+  width: 90px;
+  margin: 0 10px;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.confirmButton .okButton {
+  background-color: #de6363;
+  color: white;
+}
+
+.confirmButton .okButton:hover {
+  background-color: #d62828;
+}
+
+.confirmButton .noButton {
+    background-color: #f3eed0;
+    color: #6c6767;
+  }
+
+.confirmButton .noButton:hover {
+    background-color: #eae2b7;
+    color: #090909;
+  }
